@@ -1,0 +1,112 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main2{
+    flex-grow: 20;
+    flex-basis: 500px;
+    border: solid;
+    border-color: gray;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+aside{
+    flex-grow: 2;
+    flex-basis: 100px;
+    background-color: gray;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: darkmagenta;
+}
+header{
+    /* background-color: aqua; */
+    flex-grow: 8;
+}
+.login{
+    display: flex;
+    justify-content: end;
+}
+.login li{
+    list-style: none;
+    padding: 10px;
+}
+.arta{
+    display: flex;
+}
+.arta li{
+    list-style: none;
+    padding: 6px;
+    border: solid;
+    border-color: gray;
+}
+menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.li2{
+    display: flex;
+}
+.li2 li{
+    list-style: none;
+    padding: 10px;
+}
+.San{
+    border: solid;
+    border-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.p{
+    flex-basis: 400px;
+    flex-grow: 2;
+}
+.img{
+    background-color: gray;
+    flex-basis: 100px;
+    flex-grow: 1;
+    justify-content: center;
+}
+img{
+    max-width: 300px;
+    /* margin-left: 20px; */
+}
+@media all and (max-width: 2000px){
+    body{
+        background-color: yellow;
+    }
+}
+@media all and (max-width: 1500px){
+    body{
+        background-color: steelblue;
+    }
+}
+@media all and (max-width: 1300px){
+    body{
+        background-color: chartreuse;
+    }
+}
+@media all and (max-width: 1000px){
+    body{
+        background-color: red;
+    }
+}
+@media all and (max-width: 800px) {
+    body{
+        background-color: darkmagenta;
+    }
+}
