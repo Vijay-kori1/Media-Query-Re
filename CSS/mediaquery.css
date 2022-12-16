@@ -161,6 +161,27 @@ h3{
         margin-left: 165px;
     }
 }
+@media all and (max-width:470px){
+    body{
+        background-color: yellow;
+    }
+    /* ul{
+        text-align: center;
+    } */
+    h1{
+        background-color: slategray;
+        color: red;
+    }
+    /* .wiki{
+        margin: 0px;
+    } */
+    .img h3{
+        color: magenta;
+    }
+    .wiki img{
+        margin-left: 110px;
+    }
+}
 
 @media all and (max-width:415px){
     body{
