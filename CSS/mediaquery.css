@@ -157,9 +157,9 @@ h3{
     .img h3{
         color: magenta;
     }
-    /* .wiki img{
+    .wiki img{
         margin-left: 165px;
-    } */
+    }
 }
 
 @media all and (max-width:415px){
@@ -173,7 +173,7 @@ h3{
         background-color: violet;
         color: rgb(212, 145, 21);
     }
-    aside img{
+    .wiki img{
         margin-left: 100px;
     }
     .img h3{
@@ -192,7 +192,7 @@ h3{
         background-color: chartreuse;
         color: brown;
     }
-    aside img{
+    .wiki img{
         margin-left: 90px;
     }
     .img h3{
